@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+:root{
+    --primary-color: #7c3aed;
+    --dark-gray:#6B7280;
+    --off-white:#F3F4F6;
+
+}
+body{
+    font-family: 'montserrat',
+     sans-serif; 
+}
+
+hr{
+    margin:2rem 0rem
+}
+.container-container-center{
+    text-align: center;
+    background-color: var(--off-white);
+    margin-bottom: auto;
+    margin: 50px;
+    padding:3rem
+}
+.container{
+    padding: 1rem 0rem;
+    text-align: center;
+
+}
+.contain{
+    padding: 1rem 0rem;
+    text-align: center;
+}
+.contained{
+    text-align: center;
+    --dark-gray:#6B7280;
+}
+.container-center{
+    max-width: 600px;
+    margin:auto;
+}
+.link{
+    text-decoration: var(--primary-color);
+    border-radius: 0.5rem;
+    color:white
+}
+.link-primary {
+    max-width: 140px;
+    padding: 0.6rem 1.2rem; 
+    background-color: var(--primary-color);
+    color: #fff; 
+    margin: 1rem ;
+    border-radius: 2rem;
+    text-decoration: none;
+  }
+  
+.link-secondary {
+    max-width: 140px;
+    padding: 0.6rem 1.2rem; 
+    background-color: var(--primary-color);
+    color: #fff; 
+    margin: 1rem ;
+    border-radius: 2rem;
+    text-decoration: none;
+  }
+
+.list-item-inline{
+    display: inline-block;
+    padding: 0rem 0.5rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1 rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 40px;
+}
+.nav-brand{
+    font-weight: bold;
+    text-align:left;
+    margin-left: 0rem;
+}
+.navigation{
+    padding: 50px;
+}
+.list-non-bullet-nav-pills{
+    text-align:right;
+}
+.navigation .link{
+    color:white;
+}
+.navigation.link-active{
+    font:bold
+}
+.hero{
+    padding: 2 rem;
+    margin-top: 5rem;
+}
+.hero.hero-img{
+    max-width: 150px;
+    display:black;
+    text-align: center;
+    margin: auto;
+}
+.hero-heading{
+    color: var(--dark-gray);
+    padding-top:1 rem;
+}
+.heading-inverted{
+    color: var(--primary-color);
+}
+.section{
+    padding: 2rem;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.section h1{
+    text-align: center;
+   
+}
+.ow{
+    background-color: var(--off-white);
+}
+footer{
+    background-color: var(--primary-color);
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    padding: 50px 3rem ;
+    text-align: center;
+    color: white;
+}
+.footer-header{
+    margin: top 0rem;;
+}
+.footer-header{
+    font-size: large;
+    font-weight: bold;
+}
+.list-item-inline{
+    margin-bottom: 0vh;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
